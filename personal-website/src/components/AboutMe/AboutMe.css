@@ -1,0 +1,27 @@
+.about-me {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+#about-me-title {
+  font-size: 25px;
+}
+
+#about-me-break {
+  width: 100px;
+}
+
+#between-break {
+  width: 70%;
+}
+
+#about-me-content {
+  width: 50%;
+  display: flex;
+  align-self: center;
+  line-height: 30px;
+  padding: 50px;
+  /* border: 1px solid grey;
+  background-color: rgb(242, 240, 240); */
+}

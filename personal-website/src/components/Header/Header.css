@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header-box {
+  background-color: black;
+  width: 90%;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-contents {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.header-link {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+#name {
+  color: white;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 85px;
+  margin-left: 120px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#header-description {
+  font-size: 30px;
+  color: white;
+  font-family: "Open Sans Condensed", sans-serif;
+  margin-left: 130px;
+  margin-top: 0;
+}
