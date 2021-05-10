@@ -2,10 +2,20 @@
 
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 hr {
   border: none;
   height: 1px;
   background-color: lightgray;
+}
+
+#footer-box {
+  width: 90%;
+  background-color: black;
+  height: 100px;
 }
