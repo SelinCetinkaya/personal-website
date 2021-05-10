@@ -8,7 +8,7 @@ function AboutMe(props) {
         <p id="about-me-title">About Me</p>
         <hr id="about-me-break" />
         <p id="about-me-content">
-          Hello! My name is Selin Cetinkaya (seh-LIN CHE-tin-KAI-ya). I am a
+          Hello! I'm Selin Cetinkaya (seh-LIN CHE-tin-KAI-ya). I am a
           quick-thinking software engineer with a background in real estate and
           a passion for learning. Consistent, communicative, and thorough, I
           enjoy customizing solutions for a specific client or situation. With
@@ -16,7 +16,7 @@ function AboutMe(props) {
           quickly coming up with unique solutions to problems and look forward
           to future opportunities to grow as a software engineer.
         </p>
-        <hr id="between-break" />
+        <hr className="between-break" />
       </div>
     </>
   );

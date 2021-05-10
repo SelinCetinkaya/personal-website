@@ -1,0 +1,27 @@
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-me-title {
+  font-size: 30px;
+  margin-top: 75px;
+}
+
+#contact-me-break {
+  width: 100px;
+}
+
+#contact-me-intro {
+  width: 70%;
+}
+
+#contact-form {
+  margin-top: 20px;
+}
+
+#contact-me-message-input {
+  height: 90px;
+  width: 300px;
+}

@@ -3,7 +3,8 @@
 }
 
 #projects-title {
-  font-size: 25px;
+  font-size: 30px;
+  margin-top: 75px;
 }
 
 #projects-content {
@@ -13,26 +14,72 @@
 }
 
 .project {
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 150px;
+}
+
+.project-2 {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-right: 150px;
 }
 
 .project-image {
-  width: 150px;
-  border: 1px solid grey;
+  width: 200px;
+  border: 1px solid lightgrey;
   margin-left: 30px;
+  padding: 10px;
 }
 
 .project-2-image {
-  width: 150px;
-  border: 1px solid grey;
+  width: 175px;
+  border: 1px solid lightgrey;
   margin-right: 30px;
+  padding: 10px;
+}
+
+.project-3-image {
+  height: 200px;
+  border: 1px solid lightgrey;
+  margin-left: 30px;
+  padding: 10px;
 }
 
 .project-text {
   line-height: 25px;
+  font-size: 18px;
+}
+
+.project-break {
+  width: 30%;
+  color: lightgray;
+}
+
+.github-link,
+.deployed-site-link {
+  text-decoration: underline;
+  color: grey;
   font-size: 15px;
-  text-align: left;
+}
+
+.github-link:hover,
+.deployed-site-link:hover {
+  color: lightgray;
+}
+
+.github-link {
+  margin-right: 90px;
+}
+
+.between-break {
+  width: 70%;
 }
