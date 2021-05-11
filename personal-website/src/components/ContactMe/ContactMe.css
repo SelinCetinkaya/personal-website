@@ -27,7 +27,7 @@
   width: 300px;
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 400px) {
   #contact-me-title {
     font-size: 20px;
     margin-top: 45px;

@@ -25,7 +25,7 @@
   font-size: 25px;
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 400px) {
   #about-me-title {
     font-size: 20px;
   }
