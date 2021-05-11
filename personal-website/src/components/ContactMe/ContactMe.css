@@ -26,3 +26,28 @@
   height: 90px;
   width: 300px;
 }
+
+@media only screen and (max-width: 380px) {
+  #contact-me-title {
+    font-size: 20px;
+    margin-top: 45px;
+  }
+  #contact-me-intro {
+    font-size: 12px;
+    width: 80%;
+  }
+  #contact-form {
+    width: 75%;
+  }
+  .ant-form-item-required {
+    font-size: 10px;
+    height: auto;
+  }
+  .ant-col,
+  .ant-form-item-label {
+    height: auto;
+  }
+  #contact-me-message-input {
+    height: 75px;
+  }
+}
