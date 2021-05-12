@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./ContactMe.css";
-import { Form, Input, Button } from "antd";
+import { Form, Input, Button, Modal, Space } from "antd";
 import emailjs from "emailjs-com";
 import { USER_ID, TEMPLATE_ID, SERVICE_ID } from "../../services";
 
@@ -8,15 +8,31 @@ function ContactMe(props) {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
+  function success() {
+    Modal.success({
+      content: "You're message has been sent!",
+    });
+  }
+
+  function error() {
+    Modal.error({
+      title: "Something went wrong!",
+      content:
+        "Please try again later or reach out to me directly via my email address (listed on my resume)",
+    });
+  }
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, "#contact-form", USER_ID).then(
       (result) => {
         console.log(result.text);
+        success();
       },
       (error) => {
         console.log(error.text);
+        error();
       }
     );
     console.log(email, message);
