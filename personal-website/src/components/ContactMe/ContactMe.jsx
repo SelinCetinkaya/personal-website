@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./ContactMe.css";
 import { Form, Input, Button } from "antd";
 import emailjs from "emailjs-com";
+import { USER_ID, TEMPLATE_ID, SERVICE_ID } from "../../services";
 
 function ContactMe(props) {
   const [email, setEmail] = useState("");
@@ -10,21 +11,14 @@ function ContactMe(props) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_syvxd1s",
-        "contact_form",
-        "#contact-form",
-        "user_AmV3VaW0jjXKh3fiQTfim"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, "#contact-form", USER_ID).then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
     console.log(email, message);
   };
 
