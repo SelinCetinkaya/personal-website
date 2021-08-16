@@ -28,7 +28,7 @@ function Project3(props) {
         </a>
       </p>
       <img
-        className="project-3-image"
+        className="project-image project-3-image"
         src="https://i.imgur.com/k5Arai6.png"
         alt="project3"
       />

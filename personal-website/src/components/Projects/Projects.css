@@ -14,7 +14,7 @@
 }
 
 .project {
-  width: 50%;
+  width: 65%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -24,7 +24,7 @@
 }
 
 .project-2 {
-  width: 50%;
+  width: 65%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -34,24 +34,22 @@
 }
 
 .project-image {
-  width: 175px;
+  width: 300px;
   border: 1px solid lightgrey;
-  margin-left: 30px;
+  margin-left: 130px;
   padding: 10px;
 }
 
 .project-2-image {
-  width: 175px;
+  width: 300px;
   border: 1px solid lightgrey;
-  margin-right: 30px;
+  margin-right: 130px;
   padding: 10px;
 }
 
 .project-3-image {
-  height: 200px;
-  border: 1px solid lightgrey;
-  margin-left: 30px;
-  padding: 10px;
+  height: 300px;
+  width: auto;
 }
 
 .project-text {
@@ -60,8 +58,9 @@
 }
 
 .project-break {
-  width: 30%;
+  width: 50%;
   color: lightgray;
+  margin: 30px;
 }
 
 .github-link,
