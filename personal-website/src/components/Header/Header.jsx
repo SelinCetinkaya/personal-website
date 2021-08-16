@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import "./Header.css";
-import SelinCetinkayaResume from "../SelinCetinkayaResume.pdf";
+import SelinCetinkayaResume from "../SelinCetinkayaResume3.pdf";
 
 function Header(props) {
   return (
@@ -21,7 +21,7 @@ function Header(props) {
           <a
             href={SelinCetinkayaResume}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="header-link"
           >
             Resume
