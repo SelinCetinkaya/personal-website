@@ -90,8 +90,8 @@
     flex-direction: column-reverse;
     height: 300px;
   }
-  #name,
-  #header-description {
+  .name,
+  .header-description {
     margin-left: 20px;
   }
 }
@@ -101,13 +101,20 @@
     width: 85%;
     height: 230px;
   }
-  #name {
+  .small-header-box {
+    height: 80px;
+    justify-content: space-around;
+  }
+  .name {
     font-size: 45px;
   }
-  #header-description {
+  .header-description {
     font-size: 25px;
   }
   .header-link {
     font-size: 12px;
+  }
+  .small-header-links {
+    margin-top: 55px;
   }
 }

@@ -27,7 +27,11 @@ function Header({ smallHeader }) {
             Software Engineer
           </p>
         </div>
-        <div className="header-links">
+        <div
+          className={`header-transition ${
+            smallHeader ? "small-header-links" : "header-links"
+          }`}
+        >
           <Link className="header-link" to="about-me" smooth={true}>
             About Me
           </Link>
