@@ -1,10 +1,10 @@
 import React from "react";
 import "./AboutMe.css";
 
-function AboutMe(props) {
+function AboutMe({ smallHeader }) {
   return (
     <>
-      <div className="about-me">
+      <div className={`${smallHeader ? "small-about-me" : "about-me"}`}>
         <p id="about-me-title">About Me</p>
         <hr id="about-me-break" />
         <p id="about-me-content">

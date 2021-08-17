@@ -4,6 +4,12 @@
   flex-direction: column;
 }
 
+.small-about-me {
+  margin-top: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
 #about-me-title {
   font-size: 30px;
 }
