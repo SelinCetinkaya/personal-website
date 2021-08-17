@@ -12,8 +12,7 @@ function App() {
   useEffect(() => {
     if (typeof window !== "undefined") {
       window.addEventListener("scroll", () => {
-        setSmallHeader(window.pageYOffset > 200);
-        console.log(window.pageYOffset);
+        setSmallHeader(window.pageYOffset > 0);
       });
     }
   }, []);

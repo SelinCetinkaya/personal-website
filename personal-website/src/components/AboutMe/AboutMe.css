@@ -5,9 +5,13 @@
 }
 
 .small-about-me {
-  margin-top: 350px;
+  margin-top: 400px;
   display: flex;
   flex-direction: column;
+}
+
+.about-me-transition {
+  transition-duration: 0.5s;
 }
 
 #about-me-title {

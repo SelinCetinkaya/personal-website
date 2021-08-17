@@ -4,7 +4,11 @@ import "./AboutMe.css";
 function AboutMe({ smallHeader }) {
   return (
     <>
-      <div className={`${smallHeader ? "small-about-me" : "about-me"}`}>
+      <div
+        className={`about-me-transition ${
+          smallHeader ? "small-about-me" : "about-me"
+        }`}
+      >
         <p id="about-me-title">About Me</p>
         <hr id="about-me-break" />
         <p id="about-me-content">
