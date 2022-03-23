@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import "./Header.css";
-import SelinCetinkayaResume from "../SelinCetinkayaResume3.pdf";
+import SelinCetinkayaResume from "../SelinCetinkaya_Resume.pdf";
 
 function Header({ smallHeader }) {
   return (
