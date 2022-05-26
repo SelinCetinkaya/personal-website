@@ -43,10 +43,13 @@ function ContactMe(props) {
       <p id="contact-me-title">Contact Me</p>
       <hr id="contact-me-break" />
       <p id="contact-me-intro">
-        I am currently looking for new opportunities! Please send me a message
-        if you would like to get in touch.
+        I am not currently looking for new opportunities, but I would still love
+        to connect on
+        <a href="https://www.linkedin.com/in/selin-cetinkaya/"> LinkedIn!</a>
+        {/* I am currently looking for new opportunities! Please send me a message
+        if you would like to get in touch. */}
       </p>
-      <Form id="contact-form">
+      {/* <Form id="contact-form">
         <Form.Item
           rules={[
             { required: true, message: "Please input your email address!" },
@@ -66,7 +69,7 @@ function ContactMe(props) {
         <Button onClick={handleSubmit} type="primary" htmltype="submit">
           Submit
         </Button>
-      </Form>
+      </Form> */}
     </div>
   );
 }
